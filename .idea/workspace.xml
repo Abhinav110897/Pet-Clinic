@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Initial Project Add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/PetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Vet.java" afterDir="false" />
+    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Adding Initial POJOs. Closes #2.">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/PetClinicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/PetClinicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/PetClinic/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/model/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/PetClinic/PetClinicApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/PetClinic/PetClinicApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +43,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="JPA Structure" value="true" />
+        <entry key="JPA Structure" value="false" />
       </map>
     </option>
   </component>
@@ -48,6 +56,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -55,6 +64,12 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.PetClinic.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SPRING\Pet-Clinic\pet-clinic-web\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635503487637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Initial POJOs. Closes #2.">
+      <created>1635504938043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635504938043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +131,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Project Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Project Add" />
+    <MESSAGE value="Adding Initial POJOs. Closes #2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Initial POJOs. Closes #2." />
   </component>
 </project>

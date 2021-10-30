@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Adding the release pugin">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/OwnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/VetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Implement Interface for services. Closes #5.">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/model/BaseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -171,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635585063350</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implement Interface for services. Closes #5.">
+      <created>1635585943956</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635585943956</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +197,8 @@
     <MESSAGE value="Refactoring mult model project. Closes #1" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Adding the release pugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the release pugin" />
+    <MESSAGE value="Implement Interface for services. Closes #5." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Interface for services. Closes #5." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

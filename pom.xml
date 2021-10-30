@@ -14,13 +14,12 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>Pet-Clinic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>Pet-Clinic</name>
 	<description>Pet Clinic Project</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-
 
 	<build>
 		<plugins>

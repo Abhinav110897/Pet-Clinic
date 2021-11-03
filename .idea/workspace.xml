@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Adding Index page and controller. Closes #8">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/VetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Adding Vet page and controller. Closes #7">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/VetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/VetController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635928684155</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding Vet page and controller. Closes #7">
+      <created>1635929925260</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635929925260</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +265,8 @@
     <MESSAGE value="Refactoring to common CRUD interface. Closes #11" />
     <MESSAGE value="Impl Map Based Services. Closes #6" />
     <MESSAGE value="Adding Index page and controller. Closes #8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Index page and controller. Closes #8" />
+    <MESSAGE value="Adding Vet page and controller. Closes #7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Vet page and controller. Closes #7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

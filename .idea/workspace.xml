@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Adding Base Entity. Closes #10.">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/CrudService.java" afterDir="false" />
+    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Refactoring to common CRUD interface. Closes #11">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/map/AbstractMapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/map/OwnerServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/map/PetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635586507579</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactoring to common CRUD interface. Closes #11">
+      <created>1635925418181</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635925418181</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +217,8 @@
     <MESSAGE value="Adding the release pugin" />
     <MESSAGE value="Implement Interface for services. Closes #5." />
     <MESSAGE value="Adding Base Entity. Closes #10." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Base Entity. Closes #10." />
+    <MESSAGE value="Refactoring to common CRUD interface. Closes #11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring to common CRUD interface. Closes #11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

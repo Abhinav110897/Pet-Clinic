@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Adding Spring config. Closes #22">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/OwnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
+    <list default="true" id="48bfc3d3-5026-4bfc-8bf5-fcb31dd288bf" name="Changes" comment="Added Owners List and updated controller. Closes #16">
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/VetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/PetClinic/controllers/VetController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636023897324</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added Owners List and updated controller. Closes #16">
+      <created>1636024966144</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1636024966144</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +295,8 @@
     <MESSAGE value="Adding Owners page and controller. Closes #13" />
     <MESSAGE value="Adding Bootstrap for Data. Closes #14" />
     <MESSAGE value="Adding Spring config. Closes #22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Spring config. Closes #22" />
+    <MESSAGE value="Added Owners List and updated controller. Closes #16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Owners List and updated controller. Closes #16" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
